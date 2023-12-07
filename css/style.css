@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../images/fundo.png) repeat-x;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+#top{
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#top ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#top ul li{
+float: left;
+}
+
+#top ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+#top ul .first a{
+    background: none;
+}
+
+#top ul a:hover{
+    color: #69001d;
+}
+
+
+body.home #navbar-top a#home,
+body.national #navbar-top a#national,
+body.international #navbar-top a#international,
+body.economy #navbar-top a#economy,
+body.health #navbar-top a#health,
+body.science #navbar-top a#science,
+body.photos #navbar-top a#photos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#content{
+     margin-top: 60px;
+     background: #f5f5f5;
+}
+
+#main-content{
+    width: 270px;
+    float: left;
+    margin: 0 0 20 px 195px;
+}
+
+#side-content{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#two-columns #main-content{
+    width: 555px;
+}
+
+#one-column #main-content{
+    width: 750px;
+    margin: 0 0 20 px 0;
+}
+
+#secondary-content{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    color: black;
+  }
+
+.highlight h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.article h3 {
+    background: #de003e;
+}
+
+#news-list li {
+    padding: 2.5px;
+    border-bottom: 1.5px solid #ccc;
+    width: auto;
+}
+
+#news-list li a {
+    text-decoration: none;  
+}
+
+#news-list li a h3 {
+    font-size: 0.85em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#news-list li a p {
+    font-size: 0.75em;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#news-list li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+#news-list li::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+#news-list li a img {
+    float: left;
+    margin: 5px; 
+}
+
+p{
+    color:#000
+}
+
+.box{
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+}
+
+
+.content-box{
+    overflow: hidden;
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+#side-content ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#side-content ul a:hover {
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+
+}
+
+img.main-image{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+#container-footer{
+    background: #294c71;
+    padding: 20px;
+}
+
+#footer{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
